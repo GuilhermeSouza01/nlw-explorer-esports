@@ -47,7 +47,13 @@ header div {
     width: 120px;
     border-radius: 50%;
     background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    transition: transform .3s;
 }
+
+header div:hover {
+    transform: scale(1.1);
+}
+
 
 .wrap-img img {
     width: 100%;
@@ -81,6 +87,14 @@ section ul {
     gap: 16px;
     justify-content: center;
     margin-top: 24px;
+}
+
+section ul li {
+    transition: transform .3s;
+}
+
+section ul li:hover {
+    transform: scale(1.1);
 }
 
 
